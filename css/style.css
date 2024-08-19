@@ -1,0 +1,95 @@
+/********main style***/
+
+body {
+    background-color: #FFFFF0;
+
+}
+
+main {
+    text-align: justify;
+    margin: 0 auto;
+    width: 1300px;
+}
+
+p {
+    font-family: "Gupter", serif;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+}
+
+h2,
+h3 {
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+.card {
+    margin: 25px 0;
+    overflow: auto;
+}
+
+.block {
+    float: left;
+    padding: 20px;
+    width: 500px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.images {
+    float: left;
+    margin: 35px auto;
+
+}
+
+#egyptian_pyramids .image {
+    background: url('../img/blocks.jpeg');
+    width: 450px;
+    height: 450px;
+    margin: 10px;
+}
+
+#egyptian_pyramids .image1 {
+    background: url('../img/egyptian-tomb.jpg');
+    width: 450px;
+    height: 320px;
+    margin: 50px 10px 10px 10px;
+}
+
+#pyramids_of_giza .im {
+    background: url('../img/All_Gizah_Pyramids.jpg');
+    width: 450px;
+    height: 450px;
+    margin:10px 10px 150px 10px;
+}
+
+#pyramids_of_giza .im1 {
+    background: url('../img/great-Kheops-Pyramid.jpg');
+    width: 450px;
+    height: 450px;
+    margin:10px 10px 150px 10px;
+}
+
+#pyramids_of_giza .im2 {
+    background: url('../img/inside.jpg');
+    width: 450px;
+    height: 450px;
+    margin:10px 10px 150px 10px;
+}
+
+
+
+
+#conclusion {
+    clear: both;
+    width:1000px;
+    text-align: center;
+}
